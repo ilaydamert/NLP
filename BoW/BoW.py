@@ -7,7 +7,6 @@ from collections import Counter
 from nltk.corpus import stopwords
 from textblob import TextBlob
 from bs4 import BeautifulSoup
-from nltk.stem import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 
 df = pd.read_csv("poem_dataset.csv")
@@ -17,11 +16,6 @@ labels = df["Genre"]
 nltk.download("punkt")
 nltk.download("stopwords")
 nltk.download("wordnet")
-
-
-df = pd.read_csv("poem_dataset.csv")
-documents = df["Poem"]
-labels = df["Genre"]
 
 stop_words = set(stopwords.words("english"))
 
