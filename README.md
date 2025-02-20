@@ -1,0 +1,1 @@
+Bag of Words (BoW) is a fundamental text representation method in natural language processing (NLP) and text mining. It converts text into numerical form based on word frequency, ignoring the order and context of words. BoW is a great starting point for basic NLP tasks and a foundation for more advanced models.
